@@ -1,8 +1,8 @@
 #Criar primeira lista com valores de pressao hPa (entre 900 - 1100)
-leituras_pressao = (920,930,967,984,992,1003,1029,1034,1058,1096)
+leituras_pressao = [920,930,967,984,992,1003,1029,1034,1058,1096]
 
 #Criar segunda lista de timestamps s (segundos)
-timestamps = (0,1,2,3,4,5,6,7,8,9)
+timestamps = [0,1,2,3,4,5,6,7,8,9]
 
 #Aceder a elementos
 print(leituras_pressao[0]) #primeiro elemento
@@ -28,7 +28,10 @@ print(f"Média: {media}")
 
 timestamps.append(10)
 
-print("\nLeituras de pressão com timestamps:")
+import random
 
-for i in range(len(leituras_pressao)):
-    print(f"tempo = {timestamps[i]} s → pressão = {leituras_pressao[i]} hPa")
+pressao_aleatoria = leituras_pressao.copy()
+random.shuffle(pressao_aleatoria)
+
+for i in range(len(timestamps)):
+    print(f"tempo = {timestamps[i]} s → pressão = {pressao_aleatoria[i]} hPa")
