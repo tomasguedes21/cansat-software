@@ -31,3 +31,6 @@ Usa-se mensagem["temperatura"] porque o dicionário permite aceder aos dados pel
 
 ### Pergunta M1.4: Qual é a diferença entre print() dentro de uma função e return? Quando deves usar cada um?
 print() serve para mostrar valores no ecrã, enquanto return serve para devolver um valor da função para ser usado noutras partes do programa.
+
+### Pegunta M1.5 O que significa o with em with open(...) as f:? O que aconteceria se não o usasses?
+O with garante que o ficheiro seja fechado automaticamente, mesmo que ocorra um erro no código. Sem ele, seria necessário usar ficheiro.close() manualmente para evitar fugas de memória ou ficheiros bloqueados pelo sistema. É uma forma mais segura e limpa de gerir recursos no Python.
