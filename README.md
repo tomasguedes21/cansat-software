@@ -34,3 +34,10 @@ print() serve para mostrar valores no ecrã, enquanto return serve para devolver
 
 ### Pegunta M1.5 O que significa o with em with open(...) as f:? O que aconteceria se não o usasses?
 O with garante que o ficheiro seja fechado automaticamente, mesmo que ocorra um erro no código. Sem ele, seria necessário usar ficheiro.close() manualmente para evitar fugas de memória ou ficheiros bloqueados pelo sistema. É uma forma mais segura e limpa de gerir recursos no Python.
+
+### Pergunta M1.6 Qual é a diferença entre for e while? Em que situações usarias cada um?
+O ciclo for é usado quando sabemos à partida quantas vezes o código vai repetir ou quando percorremos uma lista, enquanto o while é usado quando a repetição depende de uma condição que pode mudar ao longo do tempo.
+No for, o controlo das iterações é automático; no while, o programador tem de garantir que a condição deixa de ser verdadeira para evitar ciclos infinitos.
+
+
+
