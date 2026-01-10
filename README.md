@@ -39,5 +39,9 @@ O with garante que o ficheiro seja fechado automaticamente, mesmo que ocorra um 
 O ciclo for é usado quando sabemos à partida quantas vezes o código vai repetir ou quando percorremos uma lista, enquanto o while é usado quando a repetição depende de uma condição que pode mudar ao longo do tempo.
 No for, o controlo das iterações é automático; no while, o programador tem de garantir que a condição deixa de ser verdadeira para evitar ciclos infinitos.
 
+### Pergunta M1.7 Qual é a diferença entre import math e from math import sqrt? Quando usarias cada um?
+"import math" importa todo o módulo e obriga a usar o prefixo math. (por exemplo, math.sqrt(9)), o que torna o código mais explícito e evita conflitos de nomes.
+from math import sqrt importa apenas a função sqrt, permitindo usá-la diretamente (sqrt(9)), sendo útil quando só precisas dessa função e queres código mais curto.
+
 
 
