@@ -10,9 +10,9 @@ else:
 
 #Criar uma função para verificar a leitura (pressao e temperatura)
 def verificar_leitura(temperatura, pressao):
-    if temperatura > 50 and pressao < 700:
+    if temperatura > 50 or pressao < 700:
         return "Crítico"
-    elif temperatura < 35 and pressao > 850:
+    elif temperatura < 35 or pressao > 850:
         return "ALERTA"
     else:
         return "OK"
