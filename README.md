@@ -53,5 +53,9 @@ Facilidade de Teste: Se o teu programa der erro, é muito mais fácil descobrir 
 
 Código Limpo (Reutilização): Se um dia quiseres usar este simulador para outra missão (ex: um rover em vez de um CanSat), podes querer manter a mesma validação de dados, mas mudar completamente as regras de deteção de anomalias. Se estiverem separadas, basta trocar uma função.
 
+### Pergunta M2.1 Qual é a diferença entre uma lista de dicionários (como usaste no M1) e um DataFrame do pandas? Que vantagens vês no DataFrame?
+Uma lista de dicionários é simples e faz parte do Python “puro”, mas exige mais código para filtrar, calcular estatísticas ou tratar dados.
+Um DataFrame do pandas organiza os dados em forma de tabela (linhas e colunas) e permite fazer essas operações de forma muito mais rápida, legível e eficiente, sendo ideal para análise e estatísticas.
+
 
 
