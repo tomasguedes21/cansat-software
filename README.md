@@ -43,5 +43,15 @@ No for, o controlo das iterações é automático; no while, o programador tem d
 "import math" importa todo o módulo e obriga a usar o prefixo math. (por exemplo, math.sqrt(9)), o que torna o código mais explícito e evita conflitos de nomes.
 from math import sqrt importa apenas a função sqrt, permitindo usá-la diretamente (sqrt(9)), sendo útil quando só precisas dessa função e queres código mais curto.
 
+### Pergunta M1.8 Se fosses adicionar uma nova funcionalidade (ex: detetar anomalias), como organizarias o código? Adicionarias uma nova função ou modificarias uma existente? Porquê?
+Eu criaria uma função chamada detetar_anomalias(leitura) ou analisar_tendencia(dados). Esta função seria inserida no fluxo de processamento, logo após a leitura dos dados, mas antes de gerar o relatório.
+Existem três razões principais (que são pilares da boa programação):
+
+Princípio da Responsabilidade Única: Cada função deve fazer apenas uma coisa bem feita. A função validar_leitura já tem o trabalho de verificar se os dados são "lixo" (como o None ou o 10000). A "deteção de anomalias" é algo mais inteligente (ex: detetar um incêndio ou uma queda brusca), por isso merece o seu próprio espaço.
+
+Facilidade de Teste: Se o teu programa der erro, é muito mais fácil descobrir se o problema está na validação ou na deteção de anomalias se elas estiverem separadas.
+
+Código Limpo (Reutilização): Se um dia quiseres usar este simulador para outra missão (ex: um rover em vez de um CanSat), podes querer manter a mesma validação de dados, mas mudar completamente as regras de deteção de anomalias. Se estiverem separadas, basta trocar uma função.
+
 
 
