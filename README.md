@@ -63,5 +63,9 @@ Uma Series é uma estrutura de dados do pandas unidimensional, semelhante a uma 
 df["temperatura"] devolve uma Series (uma única coluna), enquanto df[["temperatura"]] devolve um DataFrame com uma coluna.
 Usa a primeira quando queres trabalhar com valores (cálculos, médias) e a segunda quando precisas de manter o formato de tabela.
 
+### Pergunta M2.3 No contexto do CanSat, porque é útil calcular a "variação de altitude" entre leituras? Que problema poderias detetar se este valor fosse 0 durante muito tempo?
+No CanSat, a variação de altitude permite perceber se o satélite está a subir, em queda ou parado, ajudando a identificar as diferentes fases da missão.
+Se este valor fosse 0 durante muito tempo, poderia indicar um sensor de altitude bloqueado, falha na transmissão de dados ou que o CanSat ficou preso e deixou de se mover.
+
 
 
