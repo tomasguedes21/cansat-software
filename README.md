@@ -67,5 +67,9 @@ Usa a primeira quando queres trabalhar com valores (cálculos, médias) e a segu
 No CanSat, a variação de altitude permite perceber se o satélite está a subir, em queda ou parado, ajudando a identificar as diferentes fases da missão.
 Se este valor fosse 0 durante muito tempo, poderia indicar um sensor de altitude bloqueado, falha na transmissão de dados ou que o CanSat ficou preso e deixou de se mover.
 
+### Pergunta M2.4 Porque é importante guardar os gráficos como imagens (PNG) em vez de apenas mostrar na janela? Pensa no contexto de um relatório de missão.
+Num relatório de missão, é importante guardar os gráficos como imagens (PNG) porque permite incluí-los no relatório, partilhá-los e analisá-los mais tarde, mesmo sem executar o código.
+Mostrar apenas na janela não deixa um registo permanente dos resultados nem garante que todos veem exatamente a mesma informação.
+
 
 
