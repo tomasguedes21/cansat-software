@@ -26,6 +26,14 @@ IDE: é um ambiente completo para programar, que além de escrever código permi
 ### Pergunta M0.3: O que é controlo de versões?
 Controlo de versões é um sistema que regista e gere as alterações feitas a ficheiros ao longo do tempo, permitindo voltar a versões anteriores, acompanhar mudanças e trabalhar em equipa sem perder trabalho.
 
+### Pergunta M1.1 Qual é a diferença entre altitude = 100 e altitude = "100"? Porque é que isto importa?
+altitude = 100 é um número (inteiro) que pode ser usado em cálculos, enquanto altitude = "100" é uma string (texto).
+Isto importa porque operações matemáticas, comparações e gráficos só funcionam corretamente com números, não com texto.
+
+### Pergunta M1.2 Se tiveres uma lista com 100 leituras e quiseres aceder à leitura número 50, qual índice usas? E porquê?
+Usas o índice 49, porque em Python as listas começam a contar no 0, não no 1.
+Assim, a leitura 1 está no índice 0, a leitura 50 no índice 49.
+
 ### Pergunta M1.3: Qual é a vantagem de usar mensagem["temperatura"] em vez de mensagem[1] (como numa lista)?
 Usa-se mensagem["temperatura"] porque o dicionário permite aceder aos dados pelo seu significado, tornando o código mais claro, seguro e independente da ordem dos valores, ao contrário de mensagem[1] numa lista.
 
