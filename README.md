@@ -71,5 +71,7 @@ Se este valor fosse 0 durante muito tempo, poderia indicar um sensor de altitude
 Num relatório de missão, é importante guardar os gráficos como imagens (PNG) porque permite incluí-los no relatório, partilhá-los e analisá-los mais tarde, mesmo sem executar o código.
 Mostrar apenas na janela não deixa um registo permanente dos resultados nem garante que todos veem exatamente a mesma informação.
 
+### Pergunta M2.5 No gráfico scatter "Temperatura vs Altitude", que padrão observas? Porque é que isto faz sentido fisicamente?
+No gráfico, observa-se uma correlação linear negativa, onde a temperatura diminui de forma constante à medida que a altitude sobe. Fisicamente, isto acontece porque o ar é aquecido principalmente pela superfície terrestre e não diretamente pelo Sol; logo, quanto mais longe do solo, menor o calor. Além disso, a subida do ar causa a sua expansão devido à menor pressão atmosférica, um processo termodinâmico que resulta no arrefecimento natural da massa de ar.
 
 
