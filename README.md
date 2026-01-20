@@ -26,6 +26,10 @@ IDE: é um ambiente completo para programar, que além de escrever código permi
 ### Pergunta M0.3: O que é controlo de versões?
 Controlo de versões é um sistema que regista e gere as alterações feitas a ficheiros ao longo do tempo, permitindo voltar a versões anteriores, acompanhar mudanças e trabalhar em equipa sem perder trabalho.
 
+### Pergunta M0.4
+No comando git add ., o ponto (.) significa “este diretório”, ou seja, todos os ficheiros e subpastas a partir da pasta atual.
+Assim, o comando adiciona todas as alterações dessa pasta ao próximo commit.
+
 ### Pergunta M1.1 Qual é a diferença entre altitude = 100 e altitude = "100"? Porque é que isto importa?
 altitude = 100 é um número (inteiro) que pode ser usado em cálculos, enquanto altitude = "100" é uma string (texto).
 Isto importa porque operações matemáticas, comparações e gráficos só funcionam corretamente com números, não com texto.
