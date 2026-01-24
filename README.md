@@ -86,4 +86,55 @@ Mostrar apenas na janela não deixa um registo permanente dos resultados nem gar
 ### Pergunta M2.5 No gráfico scatter "Temperatura vs Altitude", que padrão observas? Porque é que isto faz sentido fisicamente?
 No gráfico, observa-se uma correlação linear negativa, onde a temperatura diminui de forma constante à medida que a altitude sobe. Fisicamente, isto acontece porque o ar é aquecido principalmente pela superfície terrestre e não diretamente pelo Sol; logo, quanto mais longe do solo, menor o calor. Além disso, a subida do ar causa a sua expansão devido à menor pressão atmosférica, um processo termodinâmico que resulta no arrefecimento natural da massa de ar.
 
+### Reposta Desafio M2.6
+O júri não avalia só programação ou gráficos. Eles querem perceber três coisas:
+O CanSat funcionou?
+Os dados são credíveis?
+Aprenderam algo com a missão?
+Portanto, eu dividiria a apresentação do dashboard em missão → dados → conclusões.
 
+Dados gerais da missão:
+Mesmo antes dos gráficos:
+Duração total do voo (s)
+Altitude máxima atingida (m)
+Velocidade máxima de subida/descida (m/s)
+Número total de leituras válidas
+Taxa de amostragem (ex: 1 Hz)
+Isto mostra controlo da missão.
+
+Indicação clara das fases do voo:
+O júri gosta MUITO de ver isto.
+Exemplo:
+Linhas verticais no gráfico da altitude a marcar:
+Lançamento
+Início da descida
+Cores diferentes por fase
+
+Gráfico MAIS importante: Perfil do voo (Altitude vs Tempo)
+Porquê?
+Prova que o CanSat:
+Subiu
+Atingiu altitude significativa
+Desceu de forma controlada
+
+2.º Mais importante: Velocidade vertical
+Porquê?
+Demonstra:
+Separação correta
+Funcionamento do paraquedas
+Segurança da descida
+
+3.º Mais Importante: Temperatura e/ou pressão vs altitude
+Porquê?
+Mostra coerência física:
+Temperatura ↓ com altitude
+Pressão ↓ com altitude
+
+O que EU acrescentaria para impressionar o júri
+Anotações inteligentes:
+No dashboard:
+“Altitude máxima: 742 m”
+“Início da descida aos 118 s”
+“Velocidade média de descida: 3.2 m/s”
+
+Em suma, para apresentar este dashboard a um júri CanSat, eu incluiria métricas globais da missão, como altitude máxima, duração do voo e número de leituras válidas. Os gráficos mais importantes seriam o perfil do voo, que comprova o sucesso do lançamento e da recuperação, a velocidade vertical, que valida o funcionamento do paraquedas, e a evolução da temperatura e da pressão, que demonstra coerência física e fiabilidade dos sensores. Estes elementos permitem concluir que a missão foi bem-sucedida tanto do ponto de vista técnico como científico.
