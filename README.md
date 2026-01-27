@@ -138,3 +138,6 @@ No dashboard:
 “Velocidade média de descida: 3.2 m/s”
 
 Em suma, para apresentar este dashboard a um júri CanSat, eu incluiria métricas globais da missão, como altitude máxima, duração do voo e número de leituras válidas. Os gráficos mais importantes seriam o perfil do voo, que comprova o sucesso do lançamento e da recuperação, a velocidade vertical, que valida o funcionamento do paraquedas, e a evolução da temperatura e da pressão, que demonstra coerência física e fiabilidade dos sensores. Estes elementos permitem concluir que a missão foi bem-sucedida tanto do ponto de vista técnico como científico.
+
+### Pergunta M3.1 Porque e que usamos um checksum em vez de simplesmente confiar que a mensagem chegou correta? Pensa no contexto de transmissao radio.
+No contexto de rádio (como o teu CanSat), a transmissão é muito suscetível a ruído eletromagnético, interferências de outros sinais e obstáculos físicos. Estes fatores podem corromper bits individuais, alterando, por exemplo, um valor de temperatura de $25$ para $85$ sem que o sistema perceba o erro.O checksum serve como um "selo de garantia": o recetor refaz o cálculo matemático com os dados recebidos e, se o resultado não coincidir com o selo enviado, ele sabe que a mensagem é lixo e deve ser descartada em vez de processada.
