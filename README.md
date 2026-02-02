@@ -141,3 +141,7 @@ Em suma, para apresentar este dashboard a um júri CanSat, eu incluiria métrica
 
 ### Pergunta M3.1 Porque e que usamos um checksum em vez de simplesmente confiar que a mensagem chegou correta? Pensa no contexto de transmissao radio.
 No contexto de rádio (como o teu CanSat), a transmissão é muito suscetível a ruído eletromagnético, interferências de outros sinais e obstáculos físicos. Estes fatores podem corromper bits individuais, alterando, por exemplo, um valor de temperatura de $25$ para $85$ sem que o sistema perceba o erro.O checksum serve como um "selo de garantia": o recetor refaz o cálculo matemático com os dados recebidos e, se o resultado não coincidir com o selo enviado, ele sabe que a mensagem é lixo e deve ser descartada em vez de processada.
+
+### Pergunta M3.2 Porque e que adicionamos "ruido" aos valores dos sensores? Que problema teriamos se os valores fossem sempre "perfeitos"?
+Adicionamos ruído para simular o comportamento real dos sensores, que nunca medem valores perfeitos.
+Se os valores fossem sempre perfeitos, os dados seriam irreais, os gráficos demasiado “limpos” e não permitiria testar filtros, validação de dados nem a robustez da estação terrestre — algo que num CanSat real é essencial.
