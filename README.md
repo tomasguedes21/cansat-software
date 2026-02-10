@@ -148,5 +148,3 @@ Se os valores fossem sempre perfeitos, os dados seriam irreais, os gráficos dem
 
 ### Pergunta M3.3 Porque e que o parser valida se os valores estao dentro de "limites razoaveis"? Que tipo de problemas isto pode detetar?
 Mesmo com mensagens corretas, os sensores podem falhar ou os dados podem ser corrompidos. O parser verifica se os valores estão dentro de limites razoáveis para garantir que os dados fazem sentido fisicamente e não comprometem a análise.
-Adicionamos ruído para simular o comportamento real dos sensores, que nunca medem valores perfeitos.
-Se os valores fossem sempre perfeitos, os dados seriam irreais, os gráficos demasiado “limpos” e não permitiria testar filtros, validação de dados nem a robustez da estação terrestre — algo que num CanSat real é essencial.
