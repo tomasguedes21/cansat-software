@@ -148,3 +148,14 @@ Se os valores fossem sempre perfeitos, os dados seriam irreais, os gráficos dem
 
 ### Pergunta M3.3 Porque e que o parser valida se os valores estao dentro de "limites razoaveis"? Que tipo de problemas isto pode detetar?
 Mesmo com mensagens corretas, os sensores podem falhar ou os dados podem ser corrompidos. O parser verifica se os valores estão dentro de limites razoáveis para garantir que os dados fazem sentido fisicamente e não comprometem a análise.
+
+### Pergunta M3.4 Porque e que guardamos erros num ficheiro separado dos dados? Em que situacao seria util rever o ficheiro de erros?
+Guardamos os erros num ficheiro separado (geralmente um log de erros) para manter os dados "limpos" e prontos para uso, evitando que falhas de processamento corrompam a análise ou o funcionamento do sistema principal.
+
+É útil rever esse ficheiro em situações como:
+
+Depuração (Debugging): Identificar exatamente em que linha ou por que razão um registo falhou.
+
+Monitorização de Integridade: Perceber se há um padrão de erro (ex: um fornecedor enviou dados no formato errado).
+
+Recuperação de Dados: Tentar corrigir e reprocessar apenas o que falhou, sem ter de repetir toda a operação.
