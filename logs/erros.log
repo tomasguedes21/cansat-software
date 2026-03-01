@@ -1,0 +1,24 @@
+[2026-03-01T12:08:47.660614] EVENTO: Estação terrestre iniciada
+[2026-03-01T12:08:47.668831] ERRO: Checksum inválido ou formato incorreto
+Mensagem: Primeira linha
+
+[2026-03-01T12:08:47.669781] ERRO: Checksum inválido ou formato incorreto
+Mensagem: Segunda linha
+
+[2026-03-01T12:08:47.670927] EVENTO: Processamento terminado
+[2026-03-01T12:09:09.433038] EVENTO: Estação terrestre iniciada
+[2026-03-01T12:09:09.433937] ERRO: Checksum inválido ou formato incorreto
+Mensagem: Primeira linha
+
+[2026-03-01T12:09:10.435099] ERRO: Checksum inválido ou formato incorreto
+Mensagem: Segunda linha
+
+[2026-03-01T12:09:11.436153] EVENTO: Processamento terminado
+[2026-03-01T12:12:10.524739] EVENTO: Estação terrestre iniciada
+[2026-03-01T12:12:10.525609] ERRO: Checksum inválido ou formato incorreto
+Mensagem: Primeira linha
+
+[2026-03-01T12:12:11.527121] ERRO: Checksum inválido ou formato incorreto
+Mensagem: Segunda linha
+
+[2026-03-01T12:12:12.528553] EVENTO: Processamento terminado
